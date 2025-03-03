@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: white;
+    height: fit-content;
+    width: fit-content;
+    padding: 50px;
+    border-radius: 60px 10px 60px 10px;
+    box-shadow: 5PX 5PX 10px;
+
+}
+
+.heading{
+    color: blueviolet;
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+button{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 21px;
+}
